@@ -2,6 +2,10 @@
 
 declare(strict_types=1);
 
+use App\Models\Article;
+use App\Models\Category;
+use App\Models\User;
+
 return [
     /*
      * There are different options for the connection. Since Explorer uses the Elasticsearch PHP SDK
@@ -20,7 +24,11 @@ return [
      * them in the index configuration below.
      */
     'default_index_settings' => [
-        //'index' => [],
+        'index' => [
+            Article::class,
+            Category::class,
+            User::class
+        ],
         //'analysis' => [],
     ],
 

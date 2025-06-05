@@ -17,10 +17,6 @@ return [
     */
 
     'driver' => env('SCOUT_DRIVER', 'null'),
-    'elastic' => [ 
-        'host' => env('ELASTIC_HOST', 'http://localhost:9200'),
-        'index' => env('ELASTIC_SCOUT_INDEX', 'articles'), 
-    ],
     /*
     |--------------------------------------------------------------------------
     | Index Prefix
