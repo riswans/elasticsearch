@@ -13,8 +13,6 @@ class Category extends Model
     public function toSearchableArray(): array
     {
         $array = $this->toArray();
-
-        // Anda bisa menambahkan data lain yang relevan dari relasi jika ada
         return $array;
     }
 }

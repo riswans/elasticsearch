@@ -17,10 +17,9 @@ return [
     */
 
     'driver' => env('SCOUT_DRIVER', 'null'),
-    'elastic' => [ // Nama ini mungkin berbeda tergantung driver Scout yang Anda gunakan
+    'elastic' => [ 
         'host' => env('ELASTIC_HOST', 'http://localhost:9200'),
-        'index' => env('ELASTIC_SCOUT_INDEX', 'articles'), // Pastikan nama indeks di sini sesuai
-        // ... konfigurasi lainnya
+        'index' => env('ELASTIC_SCOUT_INDEX', 'articles'), 
     ],
     /*
     |--------------------------------------------------------------------------
