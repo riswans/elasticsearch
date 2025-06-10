@@ -27,6 +27,19 @@ return [
     | "tenants" or applications sharing the same search infrastructure.
     |
     */
+    'elasticsearch' => [
+        'client' => [
+            'hosts' => [
+                [
+                    'host'   => env('ELASTICSEARCH_HOST', 'localhost'),
+                    'port'   => env('ELASTICSEARCH_PORT', 9200),
+                    'scheme' => env('ELASTICSEARCH_SCHEME', 'http'),
+                    'user'   => env('ELASTICSEARCH_USER', 'elastic'),
+                    'pass'   => env('ELASTICSEARCH_PASS', 'your_password'),
+                ],
+            ],
+        ],
+    ],
 
     'prefix' => env('SCOUT_PREFIX', ''),
 

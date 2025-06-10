@@ -1,32 +1,33 @@
 <?php
 
 return [
-    'host' => env('ELASTICSEARCH_PORT') && env('ELASTICSEARCH_SCHEME')
-        ? env('ELASTICSEARCH_SCHEME').'://'.env('ELASTICSEARCH_HOST').':'.env('ELASTICSEARCH_PORT')
-        : env('ELASTICSEARCH_HOST'),
-    'user' => env('ELASTICSEARCH_USER'),
-    'password' => env('ELASTICSEARCH_PASSWORD', env('ELASTICSEARCH_PASS')),
-    'cloud_id' => env('ELASTICSEARCH_CLOUD_ID', env('ELASTICSEARCH_API_ID')),
-    'api_key' => env('ELASTICSEARCH_API_KEY'),
-    'ssl_verification' => env('ELASTICSEARCH_SSL_VERIFICATION', true),
-    'queue' => [
-        'timeout' => env('SCOUT_QUEUE_TIMEOUT'),
-    ],
-    'indices' => [
-        'mappings' => [
-            'default' => [
-                'properties' => [
-                    'id' => [
-                        'type' => 'keyword',
-                    ],
+
+    'default' => env('ELASTICSEARCH_CONNECTION', 'default'),
+
+    'connections' => [
+
+        'default' => [
+
+            'hosts' => [
+                [
+                    'host'   => env('ELASTICSEARCH_HOST', 'localhost'),
+                    'port'   => env('ELASTICSEARCH_PORT', 9200),
+                    'scheme' => env('ELASTICSEARCH_SCHEME', 'http'),
+                    'user'   => env('ELASTICSEARCH_USER', 'elastic'),
+                    'pass'   => env('ELASTICSEARCH_PASS', ''),
                 ],
             ],
-        ],
-        'settings' => [
-            'default' => [
-                'number_of_shards' => 1,
-                'number_of_replicas' => 0,
+
+            'ssl_verification' => env('ELASTICSEARCH_SSL_VERIFICATION', true),
+
+            'logging' => [
+                'enabled' => env('ELASTICSEARCH_LOG', false),
+                'level'   => env('ELASTICSEARCH_LOG_LEVEL', 'info'),
+                'channel' => env('ELASTICSEARCH_LOG_CHANNEL', 'stack'),
             ],
+
         ],
+
     ],
+
 ];

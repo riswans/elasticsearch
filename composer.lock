@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c9b90bba00d9fb55f8ac84fd44f784e",
+    "content-hash": "106b7ee26e3c91f4ed2c892915682e34",
     "packages": [
         {
             "name": "babenkoivan/elastic-adapter",
@@ -1512,16 +1512,16 @@
         },
         {
             "name": "handcraftedinthealps/elasticsearch-dsl",
-            "version": "8.2.0",
+            "version": "8.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/handcraftedinthealps/ElasticsearchDSL.git",
-                "reference": "d61ea657b684a70028abfa51fc611e54da70ec19"
+                "reference": "e2cfe1548fbad2e13c91aaadd4de22444eab8d3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/handcraftedinthealps/ElasticsearchDSL/zipball/d61ea657b684a70028abfa51fc611e54da70ec19",
-                "reference": "d61ea657b684a70028abfa51fc611e54da70ec19",
+                "url": "https://api.github.com/repos/handcraftedinthealps/ElasticsearchDSL/zipball/e2cfe1548fbad2e13c91aaadd4de22444eab8d3d",
+                "reference": "e2cfe1548fbad2e13c91aaadd4de22444eab8d3d",
                 "shasum": ""
             },
             "require": {
@@ -1572,81 +1572,9 @@
             "homepage": "http://ongr.io",
             "support": {
                 "issues": "https://github.com/handcraftedinthealps/ElasticsearchDSL/issues",
-                "source": "https://github.com/handcraftedinthealps/ElasticsearchDSL/tree/8.2.0"
+                "source": "https://github.com/handcraftedinthealps/ElasticsearchDSL/tree/8.3.0"
             },
-            "time": "2024-09-26T09:57:46+00:00"
-        },
-        {
-            "name": "jeroen-g/explorer",
-            "version": "4.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Jeroen-G/Explorer.git",
-                "reference": "c6d88e3ed49c4a15f19f2173442a12f980c81dc7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Jeroen-G/Explorer/zipball/c6d88e3ed49c4a15f19f2173442a12f980c81dc7",
-                "reference": "c6d88e3ed49c4a15f19f2173442a12f980c81dc7",
-                "shasum": ""
-            },
-            "require": {
-                "elasticsearch/elasticsearch": "^8.0",
-                "illuminate/support": "^11.0|^12.0",
-                "laravel/scout": "^10.0",
-                "php": "^8.2",
-                "psr/log": "^3",
-                "webmozart/assert": "^1.10"
-            },
-            "require-dev": {
-                "dg/bypass-finals": "^1.8",
-                "infection/infection": "^0.29",
-                "mockery/mockery": "^1.5",
-                "nunomaduro/larastan": "^2.5",
-                "orchestra/testbench": "*",
-                "phpstan/phpstan-mockery": "^1.1",
-                "phpunit/phpunit": "^10.0",
-                "symplify/easy-coding-standard": "^9.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "JeroenG\\Explorer\\ExplorerServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "JeroenG\\Explorer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeroen",
-                    "email": "jeroengjeroeng@gmail.com",
-                    "homepage": "https://jeroeng.dev"
-                }
-            ],
-            "description": "Next-gen Elasticsearch driver for Laravel Scout.",
-            "homepage": "https://jeroen-g.github.io/Explorer/",
-            "keywords": [
-                "elastic",
-                "elasticsearch",
-                "explorer",
-                "laravel",
-                "scout",
-                "search"
-            ],
-            "support": {
-                "issues": "https://github.com/Jeroen-G/Explorer/issues",
-                "source": "https://github.com/Jeroen-G/Explorer/tree/4.1.0"
-            },
-            "time": "2025-03-28T08:21:39+00:00"
+            "time": "2025-06-06T07:49:52+00:00"
         },
         {
             "name": "jetbrains/phpstorm-stubs",
@@ -3918,16 +3846,16 @@
         },
         {
             "name": "pdphilip/elasticsearch",
-            "version": "v5.0.5",
+            "version": "v5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pdphilip/laravel-elasticsearch.git",
-                "reference": "b9977cea3579d4211dd228a5fc9c8fde2684cc5d"
+                "reference": "f2d7100533218abfa45dd1c755a6e1e1cc3b0205"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pdphilip/laravel-elasticsearch/zipball/b9977cea3579d4211dd228a5fc9c8fde2684cc5d",
-                "reference": "b9977cea3579d4211dd228a5fc9c8fde2684cc5d",
+                "url": "https://api.github.com/repos/pdphilip/laravel-elasticsearch/zipball/f2d7100533218abfa45dd1c755a6e1e1cc3b0205",
+                "reference": "f2d7100533218abfa45dd1c755a6e1e1cc3b0205",
                 "shasum": ""
             },
             "require": {
@@ -3990,9 +3918,9 @@
             ],
             "support": {
                 "issues": "https://github.com/pdphilip/laravel-elasticsearch/issues",
-                "source": "https://github.com/pdphilip/laravel-elasticsearch/tree/v5.0.5"
+                "source": "https://github.com/pdphilip/laravel-elasticsearch/tree/v5.0.6"
             },
-            "time": "2025-05-19T21:15:35+00:00"
+            "time": "2025-06-04T09:17:28+00:00"
         },
         {
             "name": "php-http/discovery",
@@ -8539,16 +8467,16 @@
         },
         {
             "name": "laravel/pail",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pail.git",
-                "reference": "f31f4980f52be17c4667f3eafe034e6826787db2"
+                "reference": "8cc3d575c1f0e57eeb923f366a37528c50d2385a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pail/zipball/f31f4980f52be17c4667f3eafe034e6826787db2",
-                "reference": "f31f4980f52be17c4667f3eafe034e6826787db2",
+                "url": "https://api.github.com/repos/laravel/pail/zipball/8cc3d575c1f0e57eeb923f366a37528c50d2385a",
+                "reference": "8cc3d575c1f0e57eeb923f366a37528c50d2385a",
                 "shasum": ""
             },
             "require": {
@@ -8568,7 +8496,7 @@
                 "orchestra/testbench-core": "^8.13|^9.0|^10.0",
                 "pestphp/pest": "^2.20|^3.0",
                 "pestphp/pest-plugin-type-coverage": "^2.3|^3.0",
-                "phpstan/phpstan": "^1.10",
+                "phpstan/phpstan": "^1.12.27",
                 "symfony/var-dumper": "^6.3|^7.0"
             },
             "type": "library",
@@ -8604,6 +8532,7 @@
             "description": "Easily delve into your Laravel application's log files directly from the command line.",
             "homepage": "https://github.com/laravel/pail",
             "keywords": [
+                "dev",
                 "laravel",
                 "logs",
                 "php",
@@ -8613,7 +8542,7 @@
                 "issues": "https://github.com/laravel/pail/issues",
                 "source": "https://github.com/laravel/pail"
             },
-            "time": "2025-01-28T15:15:15+00:00"
+            "time": "2025-06-05T13:55:57+00:00"
         },
         {
             "name": "laravel/pint",
@@ -9429,16 +9358,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.21",
+            "version": "11.5.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d565e2cdc21a7db9dc6c399c1fc2083b8010f289"
+                "reference": "4cd72faaa8f811e4cc63040cba167757660a5538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d565e2cdc21a7db9dc6c399c1fc2083b8010f289",
-                "reference": "d565e2cdc21a7db9dc6c399c1fc2083b8010f289",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4cd72faaa8f811e4cc63040cba167757660a5538",
+                "reference": "4cd72faaa8f811e4cc63040cba167757660a5538",
                 "shasum": ""
             },
             "require": {
@@ -9510,7 +9439,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.21"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.22"
             },
             "funding": [
                 {
@@ -9534,7 +9463,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-21T12:35:00+00:00"
+            "time": "2025-06-06T02:48:05+00:00"
         },
         {
             "name": "sebastian/cli-parser",
